@@ -112,51 +112,60 @@ export const FeatureTourScene: React.FC<{
         </div>
       </div>
 
-      {/* Right panel: screenshot */}
+      {/* Right panel: vertically centered so images of any aspect ratio have no gap */}
       <div
         style={{
           position: "absolute",
           left: 620,
           right: 60,
-          top: 56,
-          bottom: 56,
+          top: 0,
+          bottom: 0,
+          display: "flex",
+          alignItems: "center",
+          padding: "56px 0",
           opacity: rightOpacity,
           transform: `translateX(${rightX}px)`,
-          borderRadius: 14,
-          overflow: "hidden",
-          boxShadow: "0 32px 80px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.06)",
         }}
       >
-        {/* Browser chrome */}
         <div
           style={{
-            height: 42,
-            background: COLORS.browserChrome,
-            display: "flex",
-            alignItems: "center",
-            padding: "0 16px",
-            gap: 8,
-            flexShrink: 0,
+            width: "100%",
+            borderRadius: 14,
+            overflow: "hidden",
+            boxShadow: "0 32px 80px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.06)",
           }}
         >
-          <div style={{ width: 13, height: 13, borderRadius: "50%", background: COLORS.browserDot1 }} />
-          <div style={{ width: 13, height: 13, borderRadius: "50%", background: COLORS.browserDot2 }} />
-          <div style={{ width: 13, height: 13, borderRadius: "50%", background: COLORS.browserDot3 }} />
-          <div style={{ flex: 1, height: 26, background: COLORS.browserBar, borderRadius: 6, marginLeft: 16 }} />
-        </div>
+          {/* Browser chrome */}
+          <div
+            style={{
+              height: 42,
+              background: COLORS.browserChrome,
+              display: "flex",
+              alignItems: "center",
+              padding: "0 16px",
+              gap: 8,
+              flexShrink: 0,
+            }}
+          >
+            <div style={{ width: 13, height: 13, borderRadius: "50%", background: COLORS.browserDot1 }} />
+            <div style={{ width: 13, height: 13, borderRadius: "50%", background: COLORS.browserDot2 }} />
+            <div style={{ width: 13, height: 13, borderRadius: "50%", background: COLORS.browserDot3 }} />
+            <div style={{ flex: 1, height: 26, background: COLORS.browserBar, borderRadius: 6, marginLeft: 16 }} />
+          </div>
 
-        {/* Screenshot with Ken Burns */}
-        <div
-          style={{
-            transform: `scale(${zoom})`,
-            transformOrigin: "center top",
-            lineHeight: 0,
-          }}
-        >
-          <Img
-            src={staticFile(screenshot)}
-            style={{ width: "100%", display: "block" }}
-          />
+          {/* Screenshot with Ken Burns */}
+          <div
+            style={{
+              transform: `scale(${zoom})`,
+              transformOrigin: "center top",
+              lineHeight: 0,
+            }}
+          >
+            <Img
+              src={staticFile(screenshot)}
+              style={{ width: "100%", display: "block" }}
+            />
+          </div>
         </div>
       </div>
     </AbsoluteFill>
