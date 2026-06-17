@@ -1,0 +1,44 @@
+{
+  "customerName": "Gold Selling Standards",
+  "tagline": "AI-Powered Sales Call Intelligence for Performance Analysis and Coaching",
+  "accentColor": "#EAB308",
+  "challenge": {
+    "headline": "Sales Coaching Blind Spots Kill Revenue",
+    "description": "Managers can only review a fraction of sales calls, leaving critical behavioural patterns invisible and coaching decisions based on guesswork. Without consistent, structured feedback at scale, training fades fast and sales performance stays unpredictable.",
+    "screenshot": "customers/gold-selling-standards/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/gold-selling-standards/2.png",
+      "label": "Sales Training Pain Points"
+    },
+    {
+      "screenshot": "customers/gold-selling-standards/3.png",
+      "label": "Execution Standards Positioning"
+    },
+    {
+      "screenshot": "customers/gold-selling-standards/4.png",
+      "label": "Three-Stage Programme Flow"
+    },
+    {
+      "screenshot": "customers/gold-selling-standards/5.png",
+      "label": "Team Outcomes Overview"
+    },
+    {
+      "screenshot": "customers/gold-selling-standards/6.png",
+      "label": "Proof in the Pipeline"
+    }
+  ],
+  "result": {
+    "headline": "18% Increase in Deal Value in 90 Days",
+    "stats": [
+      { "value": "18%", "label": "Increase in Deal Value" },
+      { "value": "90 Days", "label": "Time to Results" },
+      { "value": "100%", "label": "Call Coverage" }
+    ],
+    "quote": "Gold Selling Standards has helped organisations move beyond limited call sampling, enabling more consistent evaluation and scalable coaching based on real interactions — not selective review.",
+    "authorName": "Gold Selling Standards",
+    "authorTitle": "Sales Enablement / Conversation Intelligence",
+    "screenshot": "customers/gold-selling-standards/7.png"
+  }
+}

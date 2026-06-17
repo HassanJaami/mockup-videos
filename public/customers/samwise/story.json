@@ -1,0 +1,36 @@
+{
+  "customerName": "Samwise AI",
+  "tagline": "AI-Powered Federal Contracting Platform for Government Opportunities",
+  "accentColor": "#14B8A6",
+  "challenge": {
+    "headline": "Drowning in Federal Contracting Noise",
+    "description": "Government contractors spend countless hours sifting through high volumes of opportunities across multiple sources, making it nearly impossible to focus on the most valuable pursuits. Manual research and evaluation drain resources while teams struggle to keep pace with new opportunities.",
+    "screenshot": "customers/samwise/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/samwise/2.png",
+      "label": "AI Capability Stack"
+    },
+    {
+      "screenshot": "customers/samwise/3.png",
+      "label": "AI + Human Expertise"
+    },
+    {
+      "screenshot": "customers/samwise/4.png",
+      "label": "All-Inclusive Access Plan"
+    }
+  ],
+  "result": {
+    "headline": "Contractors Win More and Work Less",
+    "stats": [
+      { "value": "40%", "label": "Higher win rates for clients" },
+      { "value": "30+ hrs", "label": "Saved per week on research" },
+      { "value": "300%", "label": "Average ROI within first year" }
+    ],
+    "quote": "By simplifying opportunity discovery and analysis, Samwise AI helps contractors focus more time on strategic growth and proposal development.",
+    "authorName": "Samwise AI",
+    "authorTitle": "Federal Contracting / GovTech SaaS Platform",
+    "screenshot": "customers/samwise/5.png"
+  }
+}

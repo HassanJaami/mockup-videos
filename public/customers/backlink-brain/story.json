@@ -1,0 +1,53 @@
+{
+  "customerName": "Backlink Brain",
+  "tagline": "AI-Powered Outreach Platform for SEO Backlink Discovery and Campaign Management",
+  "accentColor": "#F59E0B",
+  "challenge": {
+    "headline": "Manual outreach limits scale and efficiency",
+    "description": "SEO professionals juggled multiple tools and repetitive processes while trying to execute campaigns at scale. Maintaining consistency and tracking progress across multiple initiatives made it nearly impossible to grow efficiently.",
+    "screenshot": "customers/backlink-brain/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/backlink-brain/2.png",
+      "label": "PitchBox Integration"
+    },
+    {
+      "screenshot": "customers/backlink-brain/3.png",
+      "label": "3-Step Campaign Onboarding"
+    },
+    {
+      "screenshot": "customers/backlink-brain/4.png",
+      "label": "Target Audience Benefits"
+    },
+    {
+      "screenshot": "customers/backlink-brain/5.png",
+      "label": "User Success Stories"
+    },
+    {
+      "screenshot": "customers/backlink-brain/6.png",
+      "label": "Contact Export Sheet"
+    }
+  ],
+  "result": {
+    "headline": "Launched on web and mobile with 99+ users",
+    "stats": [
+      {
+        "value": "99+",
+        "label": "Active Users"
+      },
+      {
+        "value": "1",
+        "label": "Unified Platform"
+      },
+      {
+        "value": "AI",
+        "label": "Opportunity Discovery"
+      }
+    ],
+    "quote": "By simplifying workflows and reducing manual effort, Backlink Brain supports improved productivity and enables users to scale their activities with greater confidence.",
+    "authorName": "Backlink Brain",
+    "authorTitle": "SEO / AI Marketing Platform",
+    "screenshot": "customers/backlink-brain/7.png"
+  }
+}

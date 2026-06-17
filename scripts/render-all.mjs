@@ -80,6 +80,7 @@ for (const { folder, data } of customers) {
       serveUrl,
       id: "CustomerStory",
       inputProps: data,
+      // calculateMetadata in Root.tsx computes duration from features.length
     });
 
     await renderMedia({

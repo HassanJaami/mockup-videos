@@ -1,0 +1,48 @@
+{
+  "customerName": "Scoutside",
+  "tagline": "AI-Powered College Lacrosse Recruiting Platform",
+  "accentColor": "#22C55E",
+  "challenge": {
+    "headline": "Recruiting Is Overwhelming Without Direction",
+    "description": "Student-athletes struggle to identify opportunities that align with their goals and potential. The lack of accessible insights and structured guidance leads to inefficient decision-making and missed opportunities.",
+    "screenshot": "customers/scoutside/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/scoutside/2.png",
+      "label": "Value Proposition Page"
+    },
+    {
+      "screenshot": "customers/scoutside/3.png",
+      "label": "Athlete Profile Setup"
+    },
+    {
+      "screenshot": "customers/scoutside/4.png",
+      "label": "Recruiting Dashboard"
+    },
+    {
+      "screenshot": "customers/scoutside/5.png",
+      "label": "Recruiting Fit Factors"
+    },
+    {
+      "screenshot": "customers/scoutside/6.png",
+      "label": "Platform Value Pitch"
+    },
+    {
+      "screenshot": "customers/scoutside/7.png",
+      "label": "Next Steps Guidance"
+    }
+  ],
+  "result": {
+    "headline": "Athletes Recruit With Clarity and Confidence",
+    "stats": [
+      { "value": "AI", "label": "Intelligent School Matching" },
+      { "value": "100%", "label": "Personalized Fit Scoring" },
+      { "value": "Zero", "label": "Guesswork in the Process" }
+    ],
+    "quote": "Scoutside delivers a more confident and structured path through the recruiting process. Athletes are better equipped to evaluate opportunities, focus their efforts more effectively, and make informed decisions about their future.",
+    "authorName": "Scoutside",
+    "authorTitle": "Sports Recruiting Technology",
+    "screenshot": "customers/scoutside/8.png"
+  }
+}

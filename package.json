@@ -24,10 +24,11 @@
     "typescript": "5.9.3"
   },
   "scripts": {
-    "dev": "remotion studio",
+    "dev": "node scripts/generate-compositions.mjs && remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
+    "gen": "node scripts/generate-compositions.mjs",
     "render:all": "node scripts/render-all.mjs",
     "render:one": "node scripts/render-customer.mjs",
     "new-customer": "node scripts/new-customer.mjs"

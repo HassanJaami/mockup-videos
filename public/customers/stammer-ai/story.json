@@ -1,0 +1,53 @@
+{
+  "customerName": "Stammer AI",
+  "tagline": "AI-Powered White Label Platform for Conversational AI Agents",
+  "accentColor": "#A855F7",
+  "challenge": {
+    "headline": "Building AI agents required expensive dev teams",
+    "description": "The market offered two bad choices: prohibitively expensive custom AI builds requiring dedicated engineering teams, or consumer-grade chatbots too limited for enterprise use. Agencies had no practical way to package and resell AI agents as their own product, leaving a massive revenue opportunity untapped.",
+    "screenshot": "customers/stammer-ai/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/stammer-ai/2.png",
+      "label": "Multi-Channel AI Deployment"
+    },
+    {
+      "screenshot": "customers/stammer-ai/3.png",
+      "label": "Agency Social Proof"
+    },
+    {
+      "screenshot": "customers/stammer-ai/4.png",
+      "label": "White Label Voice & Chat"
+    },
+    {
+      "screenshot": "customers/stammer-ai/5.png",
+      "label": "Tech Stack Integrations"
+    },
+    {
+      "screenshot": "customers/stammer-ai/6.png",
+      "label": "Self-Serve Reseller Signup"
+    }
+  ],
+  "result": {
+    "headline": "New AI revenue streams, launched in hours",
+    "stats": [
+      {
+        "value": "Zero",
+        "label": "Code Required"
+      },
+      {
+        "value": "12M+",
+        "label": "Conversations Handled"
+      },
+      {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    ],
+    "quote": "Businesses and agencies can now build sophisticated AI agents without any programming expertise, slashing time-to-market from months to hours. Partners deliver fully white-labeled solutions that reinforce their brand and open profitable new revenue streams.",
+    "authorName": "Stammer AI",
+    "authorTitle": "White-Label AI Chatbot & Voice Agent Platform",
+    "screenshot": "customers/stammer-ai/7.png"
+  }
+}

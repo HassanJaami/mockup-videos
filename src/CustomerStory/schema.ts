@@ -6,6 +6,11 @@ export const statSchema = z.object({
   label: z.string(),
 });
 
+export const featureSchema = z.object({
+  screenshot: z.string(),
+  label: z.string(),
+});
+
 export const customerStorySchema = z.object({
   customerName: z.string(),
   tagline: z.string(),
@@ -13,20 +18,16 @@ export const customerStorySchema = z.object({
   challenge: z.object({
     headline: z.string(),
     description: z.string(),
-    screenshot: z.string(),
+    screenshot: z.string(), // screenshot 1
   }),
-  solution: z.object({
-    headline: z.string(),
-    description: z.string(),
-    screenshot: z.string(),
-  }),
+  features: z.array(featureSchema).min(1), // screenshots 2..N-1
   result: z.object({
     headline: z.string(),
     stats: z.array(statSchema).max(3),
     quote: z.string(),
     authorName: z.string(),
     authorTitle: z.string(),
-    screenshot: z.string(),
+    screenshot: z.string(), // last screenshot
   }),
 });
 

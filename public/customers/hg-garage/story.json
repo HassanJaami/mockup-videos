@@ -1,0 +1,53 @@
+{
+  "customerName": "HG Garage",
+  "tagline": "Automated inventory management for automotive parts suppliers",
+  "accentColor": "#F97316",
+  "challenge": {
+    "headline": "Spreadsheets can't keep up with multi-channel parts",
+    "description": "Automotive parts suppliers were managing inventory, COGS, and financials manually across disconnected systems — leading to stock errors, duplicate data entry, and zero visibility into profitability. Sales, inventory, and financial data lived in separate silos with no unified view.",
+    "screenshot": "customers/hg-garage/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/hg-garage/2.png",
+      "label": "Parts Marketplace Listings"
+    },
+    {
+      "screenshot": "customers/hg-garage/3.png",
+      "label": "Shop by Brand"
+    },
+    {
+      "screenshot": "customers/hg-garage/4.png",
+      "label": "Customer Testimonials"
+    },
+    {
+      "screenshot": "customers/hg-garage/5.png",
+      "label": "Filtered Parts Catalog"
+    },
+    {
+      "screenshot": "customers/hg-garage/6.png",
+      "label": "Brand Story Page"
+    }
+  ],
+  "result": {
+    "headline": "Streamlined operations, confident growth",
+    "stats": [
+      {
+        "value": "Zero",
+        "label": "Manual Tracking"
+      },
+      {
+        "value": "100%",
+        "label": "Channel Sync"
+      },
+      {
+        "value": "1",
+        "label": "Unified Platform"
+      }
+    ],
+    "quote": "HG Garage transformed inventory operations into a more streamlined and scalable process, empowering businesses to operate with greater confidence and efficiency.",
+    "authorName": "HG Garage",
+    "authorTitle": "E-commerce / Automotive Parts Supply",
+    "screenshot": "customers/hg-garage/7.png"
+  }
+}

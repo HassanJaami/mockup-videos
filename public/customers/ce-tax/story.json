@@ -1,0 +1,37 @@
+{
+  "customerName": "CE Tax",
+  "tagline": "Unified financial management system for invoicing, transactions & compliance",
+  "accentColor": "#3B82F6",
+  "challenge": {
+    "headline": "Fragmented finance tools create costly gaps",
+    "description": "Growing businesses managed invoices, transactions, and reporting across separate disconnected tools — creating administrative overhead and limiting financial visibility. The fragmentation made it difficult to maintain accurate, timely financial records at scale.",
+    "screenshot": "customers/ce-tax/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/ce-tax/2.png",
+      "label": "Unified Features Overview"
+    }
+  ],
+  "result": {
+    "headline": "Centralized, confident financial management",
+    "stats": [
+      {
+        "value": "1",
+        "label": "Unified Platform"
+      },
+      {
+        "value": "Zero",
+        "label": "Fragmented Processes"
+      },
+      {
+        "value": "100%",
+        "label": "Centralized Records"
+      }
+    ],
+    "quote": "CE Tax enables businesses to work more effectively and maintain greater confidence in their financial operations.",
+    "authorName": "CE Tax",
+    "authorTitle": "Tax & Compliance Financial Software",
+    "screenshot": "customers/ce-tax/3.png"
+  }
+}

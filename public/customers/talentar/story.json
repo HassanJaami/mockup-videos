@@ -1,0 +1,57 @@
+{
+  "customerName": "TalentArc",
+  "tagline": "AI-Powered Recruitment Platform for Smarter Hiring",
+  "accentColor": "#0EA5E9",
+  "challenge": {
+    "headline": "Manual screening buries recruiters in applicant overload",
+    "description": "Organizations struggle to efficiently manage high volumes of applicants while maintaining consistency and quality in hiring. Candidates experience delays and limited feedback, creating a disconnected hiring experience for everyone involved.",
+    "screenshot": "customers/talentar/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/talentar/2.png",
+      "label": "Hiring Stats & Social Proof"
+    },
+    {
+      "screenshot": "customers/talentar/3.png",
+      "label": "AI Beta Features Overview"
+    },
+    {
+      "screenshot": "customers/talentar/4.png",
+      "label": "AI Candidate Analysis"
+    },
+    {
+      "screenshot": "customers/talentar/5.png",
+      "label": "Job Seeker Opportunities"
+    },
+    {
+      "screenshot": "customers/talentar/6.png",
+      "label": "Candidate Onboarding Flow"
+    },
+    {
+      "screenshot": "customers/talentar/7.png",
+      "label": "Professional Value Props"
+    }
+  ],
+  "result": {
+    "headline": "Faster hiring, stronger matches, better experience",
+    "stats": [
+      {
+        "value": "95%",
+        "label": "Match Accuracy"
+      },
+      {
+        "value": "75%",
+        "label": "Faster Hiring"
+      },
+      {
+        "value": "AI",
+        "label": "Candidate Scoring"
+      }
+    ],
+    "quote": "Recruiters benefit from significantly reduced screening effort and more structured shortlisting processes, while candidates receive faster and more relevant engagement.",
+    "authorName": "TalentArc",
+    "authorTitle": "AI Recruitment & HR Technology",
+    "screenshot": "customers/talentar/8.png"
+  }
+}

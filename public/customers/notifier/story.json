@@ -1,0 +1,61 @@
+{
+  "customerName": "Notifier",
+  "tagline": "AI-Powered Social Listening and Brand Monitoring Platform",
+  "accentColor": "#06B6D4",
+  "challenge": {
+    "headline": "Brands miss critical conversations happening online",
+    "description": "Organizations faced limited visibility into social media discussions influencing customer perception and market positioning. Delayed awareness of emerging issues reduced opportunities to engage proactively and protect brand reputation.",
+    "screenshot": "customers/notifier/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/notifier/2.png",
+      "label": "Downtime Pain Points"
+    },
+    {
+      "screenshot": "customers/notifier/3.png",
+      "label": "24/7 Auto Monitoring"
+    },
+    {
+      "screenshot": "customers/notifier/4.png",
+      "label": "Core Features Overview"
+    },
+    {
+      "screenshot": "customers/notifier/5.png",
+      "label": "Multi-Channel Integrations"
+    },
+    {
+      "screenshot": "customers/notifier/6.png",
+      "label": "Bootstrapped Founder Story"
+    },
+    {
+      "screenshot": "customers/notifier/7.png",
+      "label": "Product Values & Principles"
+    },
+    {
+      "screenshot": "customers/notifier/8.png",
+      "label": "Customer Testimonials"
+    }
+  ],
+  "result": {
+    "headline": "Social listening transformed into actionable intelligence",
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "Continuous Monitoring"
+      },
+      {
+        "value": "Zero",
+        "label": "Missed Mentions"
+      },
+      {
+        "value": "AI",
+        "label": "Sentiment Analysis"
+      }
+    ],
+    "quote": "Notifier has transformed social listening from a resource-intensive process into a more efficient and actionable capability that helps organizations stay connected with their audiences and adapt to an evolving digital landscape.",
+    "authorName": "Notifier",
+    "authorTitle": "Social Media Analytics & Brand Management",
+    "screenshot": "customers/notifier/9.png"
+  }
+}

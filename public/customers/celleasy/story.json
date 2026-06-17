@@ -1,0 +1,41 @@
+{
+  "customerName": "CellEasy",
+  "tagline": "E-commerce platform for Rogers dealers with sales attribution & tracking",
+  "accentColor": "#EF4444",
+  "challenge": {
+    "headline": "No way to track which rep made each online sale",
+    "description": "Standard e-commerce platforms couldn't attribute sales to individual representatives, making it impossible for Rogers dealers to measure team performance or distribute commissions fairly. Managing complex telecom product catalogs with carrier plans, devices, and accessories added further operational strain.",
+    "screenshot": "customers/celleasy/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/celleasy/2.png",
+      "label": "Featured Deals Showcase"
+    },
+    {
+      "screenshot": "customers/celleasy/3.png",
+      "label": "Customer Navigation Hub"
+    }
+  ],
+  "result": {
+    "headline": "Digital commerce built for dealer teams",
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Sales Attribution"
+      },
+      {
+        "value": "Zero",
+        "label": "Commission Disputes"
+      },
+      {
+        "value": "1",
+        "label": "Unified Platform"
+      }
+    ],
+    "quote": "CellEasy bridged the gap between traditional retail sales structures and digital commerce, improving visibility into team performance and creating a more structured and scalable approach to wireless retail distribution.",
+    "authorName": "CellEasy",
+    "authorTitle": "Wireless Retail E-Commerce Platform",
+    "screenshot": "customers/celleasy/4.png"
+  }
+}

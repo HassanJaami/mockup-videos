@@ -1,0 +1,57 @@
+{
+  "customerName": "Axirify",
+  "tagline": "AI-Powered Automation Platform for Clinics & Med Spas",
+  "accentColor": "#6366F1",
+  "challenge": {
+    "headline": "Clinics losing leads to slow, manual processes",
+    "description": "Property and clinic businesses relied on multiple disconnected systems, causing fragmented workflows, duplicate data entry, and missed opportunities. As teams grew, managing information consistently across functions became increasingly unmanageable.",
+    "screenshot": "customers/axirify/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/axirify/2.png",
+      "label": "Unified Operations Dashboard"
+    },
+    {
+      "screenshot": "customers/axirify/3.png",
+      "label": "Pain Points Overview"
+    },
+    {
+      "screenshot": "customers/axirify/4.png",
+      "label": "Front Office Automation"
+    },
+    {
+      "screenshot": "customers/axirify/5.png",
+      "label": "How It Works Flow"
+    },
+    {
+      "screenshot": "customers/axirify/6.png",
+      "label": "WhatsApp & Stripe Integrations"
+    },
+    {
+      "screenshot": "customers/axirify/7.png",
+      "label": "Proven ROI Stats"
+    }
+  ],
+  "result": {
+    "headline": "5x ROI and 40+ hours saved every month",
+    "stats": [
+      {
+        "value": "5x",
+        "label": "Total ROI (conservative)"
+      },
+      {
+        "value": "40+",
+        "label": "Hours Saved Per Month"
+      },
+      {
+        "value": "100+",
+        "label": "More Appointments Confirmed"
+      }
+    ],
+    "quote": "One client recovered $5,000 USD/month in lost appointments from faster follow-ups alone. Property management, CRM, and project management now live in a single platform instead of multiple disconnected tools.",
+    "authorName": "Axirify",
+    "authorTitle": "Property & Operations Management SaaS Platform",
+    "screenshot": "customers/axirify/8.png"
+  }
+}

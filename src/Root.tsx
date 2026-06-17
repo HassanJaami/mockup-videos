@@ -2,50 +2,29 @@ import "./index.css";
 import { Composition } from "remotion";
 import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
-import { CustomerStory, customerStorySchema, TOTAL_DURATION } from "./CustomerStory";
+import { CustomerStory, customerStorySchema, computeTotalDuration } from "./CustomerStory";
+import { CUSTOMERS } from "./customers";
+import type { CustomerStoryData } from "./CustomerStory/schema";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      <Composition
-        id="CustomerStory"
-        component={CustomerStory}
-        durationInFrames={TOTAL_DURATION}
-        fps={30}
-        width={1920}
-        height={1080}
-        schema={customerStorySchema}
-        defaultProps={{
-          customerName: "Acme Corp",
-          tagline: "How Acme doubled their conversion rate in 60 days",
-          accentColor: "#6366F1" as const,
-          challenge: {
-            headline: "Low conversion rates were killing growth",
-            description:
-              "Acme's landing pages were converting at just 1.2%, far below industry average. Every ad dollar spent was generating minimal returns.",
-            screenshot: "customers/acme/challenge.png",
-          },
-          solution: {
-            headline: "Streamlined onboarding with a smarter funnel",
-            description:
-              "Using our platform, Acme identified friction points and rebuilt their entire conversion funnel in days — not months.",
-            screenshot: "customers/acme/solution.png",
-          },
-          result: {
-            headline: "2× conversions in just 60 days",
-            stats: [
-              { value: "2.4×", label: "Conversion Rate" },
-              { value: "60%", label: "Lower CAC" },
-              { value: "$180k", label: "Revenue Added" },
-            ],
-            quote:
-              "This tool completely transformed how we think about our funnel. We saw results in the first week.",
-            authorName: "Sarah Chen",
-            authorTitle: "Head of Growth, Acme Corp",
-            screenshot: "customers/acme/result.png",
-          },
-        }}
-      />
+      {CUSTOMERS.map(({ id, data }) => (
+        <Composition
+          key={id}
+          id={id}
+          component={CustomerStory}
+          calculateMetadata={({ props }: { props: CustomerStoryData }) => ({
+            durationInFrames: computeTotalDuration((props.features ?? []).length),
+          })}
+          durationInFrames={computeTotalDuration(5)}
+          fps={30}
+          width={1920}
+          height={1080}
+          schema={customerStorySchema}
+          defaultProps={data}
+        />
+      ))}
 
       <Composition
         id="HelloWorld"

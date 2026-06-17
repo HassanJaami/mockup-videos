@@ -1,0 +1,45 @@
+{
+  "customerName": "DARE",
+  "tagline": "Agentic AI Research Platform for Scientists and PhD Researchers",
+  "accentColor": "#8B5CF6",
+  "challenge": {
+    "headline": "Advanced AI was locked behind engineering expertise",
+    "description": "Scientists who needed AI agents to process massive datasets or run complex analysis workflows faced steep technical barriers without dedicated engineering support. Sending sensitive research data to commercial AI platforms also violated institutional data policies.",
+    "screenshot": "customers/dare/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/dare/2.png",
+      "label": "Self-Hosted Architecture"
+    },
+    {
+      "screenshot": "customers/dare/3.png",
+      "label": "Multi-Audience Platform"
+    },
+    {
+      "screenshot": "customers/dare/4.png",
+      "label": "Workflow Builder Tools"
+    }
+  ],
+  "result": {
+    "headline": "AI research democratized at Carnegie Mellon",
+    "stats": [
+      {
+        "value": "2,000+",
+        "label": "Students Served"
+      },
+      {
+        "value": "Multi-school",
+        "label": "Collaborations Underway"
+      },
+      {
+        "value": "100%",
+        "label": "Data Stays In-House"
+      }
+    ],
+    "quote": "DARE has transformed AI-powered research from an engineering challenge into an accessible tool for scientific discovery. Deployed at Carnegie Mellon University, it now accelerates AI-powered research across multiple disciplines.",
+    "authorName": "DARE",
+    "authorTitle": "AI Research Platform, Academia & Non-Profits",
+    "screenshot": "customers/dare/5.png"
+  }
+}

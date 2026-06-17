@@ -1,0 +1,49 @@
+{
+  "customerName": "Insidermemes",
+  "tagline": "AI-Powered Meme Generator for Viral Content Creation",
+  "accentColor": "#EC4899",
+  "challenge": {
+    "headline": "Creating timely memes takes too long",
+    "description": "Content creators and brands struggled to find suitable templates, align text correctly, and produce memes quickly enough to stay relevant to trends. These barriers slowed content production and caused creators to miss fast-moving online moments.",
+    "screenshot": "customers/insidermemes/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/insidermemes/2.png",
+      "label": "Video Meme Templates"
+    },
+    {
+      "screenshot": "customers/insidermemes/3.png",
+      "label": "Image Meme Library"
+    },
+    {
+      "screenshot": "customers/insidermemes/4.png",
+      "label": "AI Meme Generator"
+    },
+    {
+      "screenshot": "customers/insidermemes/5.png",
+      "label": "Social Proof Stats"
+    }
+  ],
+  "result": {
+    "headline": "Driving Millions of Views a Day",
+    "stats": [
+      {
+        "value": "Seconds",
+        "label": "Idea to Finished Meme"
+      },
+      {
+        "value": "200M+",
+        "label": "Monthly Impressions"
+      },
+      {
+        "value": "Zero",
+        "label": "Design Skills Required"
+      }
+    ],
+    "quote": "Users go from idea to finished meme in seconds, not minutes of manual editing. Brands and creators can publish timely meme content before internet moments fade.",
+    "authorName": "Insidermemes",
+    "authorTitle": "AI Content Creation / Social Media",
+    "screenshot": "customers/insidermemes/6.png"
+  }
+}
