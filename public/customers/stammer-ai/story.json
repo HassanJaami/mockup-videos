@@ -10,32 +10,44 @@
   },
   "features": [
     {
-      "screenshot": "customers/stammer-ai/2.png",
-      "label": "Multi-Channel AI Deployment"
-    },
-    {
       "screenshot": "customers/stammer-ai/3.png",
-      "label": "Agency Social Proof"
+      "label": "AI Agents Across Every Channel"
     },
     {
       "screenshot": "customers/stammer-ai/4.png",
-      "label": "White Label Voice & Chat"
+      "label": "White Label Voice & Chat Agents"
     },
     {
       "screenshot": "customers/stammer-ai/5.png",
-      "label": "Tech Stack Integrations"
+      "label": "Built for Every Industry"
     },
     {
       "screenshot": "customers/stammer-ai/6.png",
-      "label": "Self-Serve Reseller Signup"
+      "label": "Scale Your Agency in Days"
+    },
+    {
+      "screenshot": "customers/stammer-ai/7.png",
+      "label": "No-Code Setup in Minutes"
+    },
+    {
+      "screenshot": "customers/stammer-ai/8.png",
+      "label": "Integrates with Your Tech Stack"
+    },
+    {
+      "screenshot": "customers/stammer-ai/9.png",
+      "label": "24/7 Priority Support Included"
+    },
+    {
+      "screenshot": "customers/stammer-ai/2.png",
+      "label": "1,300+ Agencies Trust Stammer"
     }
   ],
   "result": {
     "headline": "New AI revenue streams, launched in hours",
     "stats": [
       {
-        "value": "Zero",
-        "label": "Code Required"
+        "value": "35K+",
+        "label": "Live AI Agents"
       },
       {
         "value": "12M+",
@@ -46,9 +58,9 @@
         "label": "Uptime"
       }
     ],
-    "quote": "Businesses and agencies can now build sophisticated AI agents without any programming expertise, slashing time-to-market from months to hours. Partners deliver fully white-labeled solutions that reinforce their brand and open profitable new revenue streams.",
-    "authorName": "Stammer AI",
-    "authorTitle": "White-Label AI Chatbot & Voice Agent Platform",
-    "screenshot": "customers/stammer-ai/7.png"
+    "quote": "Their white-label AI solution is not only powerful and reliable but also fully customizable making it incredibly easy to align with our business goals.",
+    "authorName": "Ohimai T.",
+    "authorTitle": "AI Agency Owner",
+    "screenshot": "customers/stammer-ai/10.png"
   }
 }
