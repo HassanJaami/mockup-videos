@@ -27,7 +27,10 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "render:all": "node scripts/render-all.mjs",
+    "render:one": "node scripts/render-customer.mjs",
+    "new-customer": "node scripts/new-customer.mjs"
   },
   "sideEffects": [
     "*.css"

@@ -2,23 +2,58 @@ import "./index.css";
 import { Composition } from "remotion";
 import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
-
-// Each <Composition> is an entry in the sidebar!
+import { CustomerStory, customerStorySchema, TOTAL_DURATION } from "./CustomerStory";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        // You can take the "id" to render a video:
-        // npx remotion render HelloWorld
+        id="CustomerStory"
+        component={CustomerStory}
+        durationInFrames={TOTAL_DURATION}
+        fps={30}
+        width={1920}
+        height={1080}
+        schema={customerStorySchema}
+        defaultProps={{
+          customerName: "Acme Corp",
+          tagline: "How Acme doubled their conversion rate in 60 days",
+          accentColor: "#6366F1" as const,
+          challenge: {
+            headline: "Low conversion rates were killing growth",
+            description:
+              "Acme's landing pages were converting at just 1.2%, far below industry average. Every ad dollar spent was generating minimal returns.",
+            screenshot: "customers/acme/challenge.png",
+          },
+          solution: {
+            headline: "Streamlined onboarding with a smarter funnel",
+            description:
+              "Using our platform, Acme identified friction points and rebuilt their entire conversion funnel in days — not months.",
+            screenshot: "customers/acme/solution.png",
+          },
+          result: {
+            headline: "2× conversions in just 60 days",
+            stats: [
+              { value: "2.4×", label: "Conversion Rate" },
+              { value: "60%", label: "Lower CAC" },
+              { value: "$180k", label: "Revenue Added" },
+            ],
+            quote:
+              "This tool completely transformed how we think about our funnel. We saw results in the first week.",
+            authorName: "Sarah Chen",
+            authorTitle: "Head of Growth, Acme Corp",
+            screenshot: "customers/acme/result.png",
+          },
+        }}
+      />
+
+      <Composition
         id="HelloWorld"
         component={HelloWorld}
         durationInFrames={150}
         fps={30}
         width={1920}
         height={1080}
-        // You can override these props for each render:
-        // https://www.remotion.dev/docs/parametrized-rendering
         schema={myCompSchema}
         defaultProps={{
           titleText: "Welcome to Remotion",
@@ -28,7 +63,6 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
 
-      {/* Mount any React component to make it show up in the sidebar and work on it individually! */}
       <Composition
         id="OnlyLogo"
         component={Logo}
