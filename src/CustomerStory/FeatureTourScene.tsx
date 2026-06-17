@@ -16,7 +16,7 @@ export const FeatureTourScene: React.FC<{
   index: number;
   total: number;
   accentColor: string;
-}> = ({ screenshot, label, index, total, accentColor }) => {
+}> = ({ screenshot, label, index, accentColor }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -42,8 +42,6 @@ export const FeatureTourScene: React.FC<{
     [1, 0],
     clamp
   );
-
-  const counter = `${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")}`;
 
   return (
     <AbsoluteFill
