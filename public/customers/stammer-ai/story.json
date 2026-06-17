@@ -1,6 +1,7 @@
 {
   "customerName": "Stammer AI",
   "tagline": "AI-Powered White Label Platform for Conversational AI Agents",
+  "websiteUrl": "stammer.ai",
   "accentColor": "#A855F7",
   "challenge": {
     "headline": "Building AI agents required expensive dev teams",

@@ -100,21 +100,6 @@ export const FeatureTourScene: React.FC<{
           }}
         />
 
-        {/* Counter */}
-        <div
-          style={{
-            fontSize: 13,
-            fontWeight: 700,
-            letterSpacing: "0.18em",
-            color: accentColor,
-            textTransform: "uppercase",
-            marginBottom: 20,
-            opacity: 0.9,
-          }}
-        >
-          {counter}
-        </div>
-
         {/* Feature label */}
         <div
           style={{

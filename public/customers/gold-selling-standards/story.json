@@ -1,6 +1,7 @@
 {
   "customerName": "Gold Selling Standards",
   "tagline": "AI-Powered Sales Call Intelligence for Performance Analysis and Coaching",
+  "websiteUrl": "goldsellingstandards.com",
   "accentColor": "#EAB308",
   "challenge": {
     "headline": "Sales Coaching Blind Spots Kill Revenue",
@@ -32,11 +33,20 @@
   "result": {
     "headline": "18% Increase in Deal Value in 90 Days",
     "stats": [
-      { "value": "18%", "label": "Increase in Deal Value" },
-      { "value": "90 Days", "label": "Time to Results" },
-      { "value": "100%", "label": "Call Coverage" }
+      {
+        "value": "18%",
+        "label": "Increase in Deal Value"
+      },
+      {
+        "value": "90 Days",
+        "label": "Time to Results"
+      },
+      {
+        "value": "100%",
+        "label": "Call Coverage"
+      }
     ],
-    "quote": "Gold Selling Standards has helped organisations move beyond limited call sampling, enabling more consistent evaluation and scalable coaching based on real interactions — not selective review.",
+    "quote": "Gold Selling Standards has helped organisations move beyond limited call sampling, enabling more consistent evaluation and scalable coaching based on real interactions \u2014 not selective review.",
     "authorName": "Gold Selling Standards",
     "authorTitle": "Sales Enablement / Conversation Intelligence",
     "screenshot": "customers/gold-selling-standards/7.png"

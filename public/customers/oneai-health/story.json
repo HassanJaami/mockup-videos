@@ -1,0 +1,50 @@
+{
+  "customerName": "ONEai Health",
+  "tagline": "AI-Powered Chronic Care Intelligence \u2014 Continuous, Measurable, Actionable",
+  "websiteUrl": "oneaihealth.com",
+  "accentColor": "#0EA5E9",
+  "challenge": {
+    "headline": "Risk Compounds Silently Between Clinic Visits",
+    "description": "96% of a patient's health journey happens outside the clinic, yet traditional care models only capture the 4% that occurs in-office. Healthcare organizations managing chronic care programs lack a unified view of patient status, making it nearly impossible to prioritize interventions before conditions escalate.",
+    "screenshot": "customers/oneai-health/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/oneai-health/2.png",
+      "label": "Between-Visit Gap Stats"
+    },
+    {
+      "screenshot": "customers/oneai-health/3.png",
+      "label": "Care Network Platform"
+    },
+    {
+      "screenshot": "customers/oneai-health/4.png",
+      "label": "Ecosystem Intelligence"
+    },
+    {
+      "screenshot": "customers/oneai-health/5.png",
+      "label": "Patient Engagement Hub"
+    }
+  ],
+  "result": {
+    "headline": "Decision-Ready Intelligence Delivered at Scale",
+    "stats": [
+      {
+        "value": "96%",
+        "label": "of care happens between visits \u2014 now monitored"
+      },
+      {
+        "value": "2-in-1",
+        "label": "Continuous + Predictive Care Intelligence layers"
+      },
+      {
+        "value": "360\u00b0",
+        "label": "Unified view across patients, clinicians & payers"
+      }
+    ],
+    "quote": "By bringing patient engagement, care coordination, and health insights together within a single platform, ONEai Health helps healthcare organizations deliver a more connected and proactive care experience.",
+    "authorName": "ONEai Health",
+    "authorTitle": "AI Healthcare / Digital Health",
+    "screenshot": "customers/oneai-health/6.png"
+  }
+}

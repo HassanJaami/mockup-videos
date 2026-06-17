@@ -1,6 +1,7 @@
 {
   "customerName": "TalentArc",
   "tagline": "AI-Powered Recruitment Platform for Smarter Hiring",
+  "websiteUrl": "talentarc.ai",
   "accentColor": "#0EA5E9",
   "challenge": {
     "headline": "Manual screening buries recruiters in applicant overload",

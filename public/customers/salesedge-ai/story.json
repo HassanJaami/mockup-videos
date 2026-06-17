@@ -1,0 +1,50 @@
+{
+  "customerName": "SalesEdgeAI",
+  "tagline": "AI-powered sales automation that eliminates post-meeting admin work",
+  "websiteUrl": "salesedgeai.com",
+  "accentColor": "#8B5CF6",
+  "challenge": {
+    "headline": "Sales reps lose 30% of selling time to admin",
+    "description": "Sales professionals were drowning in manual CRM updates, disconnected follow-ups, and lost conversation insights after every client meeting. Without an intelligent layer connecting their tools, deals slipped through the cracks and forecasting accuracy eroded.",
+    "screenshot": "customers/salesedge-ai/1.png"
+  },
+  "features": [
+    {
+      "screenshot": "customers/salesedge-ai/2.png",
+      "label": "AI Sales Partner Dashboard"
+    },
+    {
+      "screenshot": "customers/salesedge-ai/3.png",
+      "label": "Fragmentation Cost Stats"
+    },
+    {
+      "screenshot": "customers/salesedge-ai/4.png",
+      "label": "Meeting Intelligence Insights"
+    },
+    {
+      "screenshot": "customers/salesedge-ai/5.png",
+      "label": "Revenue Leakage Calculator"
+    }
+  ],
+  "result": {
+    "headline": "8\u201310 hours recovered per rep, every week",
+    "stats": [
+      {
+        "value": "8-10 hrs",
+        "label": "Recovered per rep weekly"
+      },
+      {
+        "value": "40%",
+        "label": "Improvement in follow-up consistency"
+      },
+      {
+        "value": "Real-time",
+        "label": "CRM data with zero manual input"
+      }
+    ],
+    "quote": "SalesEdgeAI operates in the background, eliminating manual overhead so sales teams stay focused entirely on customer engagement and closing deals.",
+    "authorName": "SalesEdgeAI",
+    "authorTitle": "AI Sales Automation",
+    "screenshot": "customers/salesedge-ai/6.png"
+  }
+}

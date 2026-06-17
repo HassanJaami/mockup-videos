@@ -1,36 +1,54 @@
 {
   "customerName": "Samwise AI",
   "tagline": "AI-Powered Federal Contracting Platform for Government Opportunities",
+  "websiteUrl": "samwiseai.com",
   "accentColor": "#14B8A6",
   "challenge": {
-    "headline": "Drowning in Federal Contracting Noise",
-    "description": "Government contractors spend countless hours sifting through high volumes of opportunities across multiple sources, making it nearly impossible to focus on the most valuable pursuits. Manual research and evaluation drain resources while teams struggle to keep pace with new opportunities.",
+    "headline": "Manual Research Drains Time on Federal Contracts",
+    "description": "Government contractors faced an overwhelming volume of opportunities scattered across multiple sources, making it nearly impossible to focus on the right pursuits. Teams spent excessive hours on manual research and evaluation, leaving little time for strategic proposal development.",
     "screenshot": "customers/samwise/1.png"
   },
   "features": [
     {
       "screenshot": "customers/samwise/2.png",
-      "label": "AI Capability Stack"
+      "label": "Company Profile Setup"
     },
     {
       "screenshot": "customers/samwise/3.png",
-      "label": "AI + Human Expertise"
+      "label": "All-Inclusive Pricing Plan"
     },
     {
       "screenshot": "customers/samwise/4.png",
-      "label": "All-Inclusive Access Plan"
+      "label": "Opportunity List View"
+    },
+    {
+      "screenshot": "customers/samwise/5.png",
+      "label": "Market Analytics Dashboard"
+    },
+    {
+      "screenshot": "customers/samwise/6.png",
+      "label": "Performance Stats Overview"
     }
   ],
   "result": {
-    "headline": "Contractors Win More and Work Less",
+    "headline": "Contractors Win More with Less Time Wasted",
     "stats": [
-      { "value": "40%", "label": "Higher win rates for clients" },
-      { "value": "30+ hrs", "label": "Saved per week on research" },
-      { "value": "300%", "label": "Average ROI within first year" }
+      {
+        "value": "40%",
+        "label": "Higher win rates"
+      },
+      {
+        "value": "30+ hrs",
+        "label": "Saved per week"
+      },
+      {
+        "value": "300%",
+        "label": "Average ROI in year one"
+      }
     ],
-    "quote": "By simplifying opportunity discovery and analysis, Samwise AI helps contractors focus more time on strategic growth and proposal development.",
+    "quote": "SAMwiseAI consolidates newly available, high-potential opportunities and provides data-driven insights to shape your capture strategy \u2014 giving you the competitive edge to win more business, faster.",
     "authorName": "Samwise AI",
-    "authorTitle": "Federal Contracting / GovTech SaaS Platform",
-    "screenshot": "customers/samwise/5.png"
+    "authorTitle": "Federal Contracting / GovTech",
+    "screenshot": "customers/samwise/7.png"
   }
 }

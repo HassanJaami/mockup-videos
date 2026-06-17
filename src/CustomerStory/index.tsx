@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Sequence } from "remotion";
+import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
 import {
   CHALLENGE_DURATION,
   COLORS,
@@ -28,6 +28,19 @@ export const CustomerStory: React.FC<CustomerStoryData> = (props) => {
 
   return (
     <AbsoluteFill style={{ background: COLORS.bg }}>
+      {/* Background music — loops automatically, fades out in last 60 frames */}
+      <Audio
+        src={staticFile("music/background.mp3")}
+        volume={(f) => {
+          const total = computeTotalDuration(features.length);
+          // Fade in over first 30 frames, fade out over last 60 frames
+          if (f < 30) return (f / 30) * 0.35;
+          if (f > total - 60) return ((total - f) / 60) * 0.35;
+          return 0.35;
+        }}
+        loop
+      />
+
       <Sequence from={0} durationInFrames={INTRO_DURATION}>
         <IntroScene
           customerName={props.customerName}
@@ -35,7 +48,6 @@ export const CustomerStory: React.FC<CustomerStoryData> = (props) => {
           accentColor={props.accentColor}
         />
       </Sequence>
-
       <Sequence from={CHALLENGE_START} durationInFrames={CHALLENGE_DURATION}>
         <StoryScene
           sectionLabel="The Challenge"
@@ -46,7 +58,6 @@ export const CustomerStory: React.FC<CustomerStoryData> = (props) => {
           sceneDuration={CHALLENGE_DURATION}
         />
       </Sequence>
-
       {features.map((feature, i) => (
         <Sequence
           key={`${feature.screenshot}-${i}`}
@@ -62,14 +73,19 @@ export const CustomerStory: React.FC<CustomerStoryData> = (props) => {
           />
         </Sequence>
       ))}
-
       <Sequence from={RESULT_START} durationInFrames={RESULT_DURATION}>
         <ResultScene result={props.result} accentColor={props.accentColor} />
       </Sequence>
-
-      <Sequence from={OUTRO_START} durationInFrames={OUTRO_DURATION}>
+      <Sequence
+        from={OUTRO_START}
+        durationInFrames={OUTRO_DURATION}
+        style={{
+          translate: "66px -24.5px",
+        }}
+      >
         <OutroScene
           customerName={props.customerName}
+          websiteUrl={props.websiteUrl}
           accentColor={props.accentColor}
         />
       </Sequence>

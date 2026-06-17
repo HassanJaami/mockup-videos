@@ -9,54 +9,51 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Alertora",
         "tagline": "AI-Powered WhatsApp Safety Companion for Solo Travelers",
+        "websiteUrl": "alertora.com",
         "accentColor": "#10B981",
         "challenge": {
-            "headline": "Fragmented travel info leaves solo travelers exposed",
-            "description": "Solo travelers relied on multiple scattered sources to gather destination-specific guidance, making it time-consuming and stressful to access critical information quickly. This fragmented approach created unnecessary friction and overwhelm during the moments travelers needed support most.",
+            "headline": "Solo travelers overwhelmed by fragmented info",
+            "description": "Solo travelers relied on scattered sources to find destination-specific guidance, making quick access to help stressful and time-consuming. There was no single, familiar channel that could deliver calm, personalized support exactly when it was needed most.",
             "screenshot": "customers/alertora/1.png"
         },
         "features": [
             {
                 "screenshot": "customers/alertora/2.png",
-                "label": "Real Scenario Guidance"
+                "label": "Real Traveler Scenarios"
             },
             {
                 "screenshot": "customers/alertora/3.png",
-                "label": "WhatsApp Onboarding Flow"
+                "label": "3-Step Onboarding Flow"
             },
             {
                 "screenshot": "customers/alertora/4.png",
-                "label": "Safety Features Suite"
+                "label": "Safety Features Grid"
             },
             {
                 "screenshot": "customers/alertora/5.png",
-                "label": "Traveler Community Stats"
-            },
-            {
-                "screenshot": "customers/alertora/6.png",
-                "label": "User Testimonials Wall"
+                "label": "Community Growth Stats"
             }
         ],
         "result": {
-            "headline": "Travelers explore with confidence, not anxiety",
+            "headline": "Confident solo travel, delivered via WhatsApp",
             "stats": [
                 {
                     "value": "1,000+",
-                    "label": "Solo Travelers Supported"
+                    "label": "Solo Travelers Joined"
                 },
                 {
                     "value": "24/7",
-                    "label": "On-Demand Guidance"
+                    "label": "Always-On Support"
                 },
                 {
-                    "value": "Zero",
-                    "label": "Extra Apps Needed"
+                    "value": "180+",
+                    "label": "Destinations Covered"
                 }
             ],
-            "quote": "By reducing friction in accessing travel-related information, Alertora helps users make more informed decisions and approach unfamiliar situations with greater confidence.",
+            "quote": "Alertora made me feel like I had a friend watching out for me the entire trip. The check-ins after every activity gave me so much peace of mind.",
             "authorName": "Alertora",
             "authorTitle": "Travel Safety / AI Chatbots",
-            "screenshot": "customers/alertora/7.png"
+            "screenshot": "customers/alertora/6.png"
         }
     },
   },
@@ -65,11 +62,12 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     folder: "axirify",
     data: {
         "customerName": "Axirify",
-        "tagline": "AI-Powered Automation Platform for Clinics & Med Spas",
+        "tagline": "The WhatsApp-First Automation Platform for Clinics & Med Spas",
+        "websiteUrl": "axirify.com",
         "accentColor": "#6366F1",
         "challenge": {
-            "headline": "Clinics losing leads to slow, manual processes",
-            "description": "Property and clinic businesses relied on multiple disconnected systems, causing fragmented workflows, duplicate data entry, and missed opportunities. As teams grew, managing information consistently across functions became increasingly unmanageable.",
+            "headline": "Manual Processes Are Costing Clinics Every Day",
+            "description": "Clinics rely on disconnected tools and manual follow-ups, causing delayed responses, missed appointments, and lost revenue. Staff spend hours on routine tasks that should be automated.",
             "screenshot": "customers/axirify/1.png"
         },
         "features": [
@@ -87,37 +85,33 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
             },
             {
                 "screenshot": "customers/axirify/5.png",
-                "label": "How It Works Flow"
+                "label": "4-Step Automation Workflow"
             },
             {
                 "screenshot": "customers/axirify/6.png",
                 "label": "WhatsApp & Stripe Integrations"
-            },
-            {
-                "screenshot": "customers/axirify/7.png",
-                "label": "Proven ROI Stats"
             }
         ],
         "result": {
-            "headline": "5x ROI and 40+ hours saved every month",
+            "headline": "5x ROI and 40+ Hours Saved Every Month",
             "stats": [
                 {
                     "value": "5x",
-                    "label": "Total ROI (conservative)"
+                    "label": "Total ROI (conservative estimate)"
                 },
                 {
                     "value": "40+",
-                    "label": "Hours Saved Per Month"
+                    "label": "Hours saved per month"
                 },
                 {
                     "value": "100+",
-                    "label": "More Appointments Confirmed"
+                    "label": "More appointments confirmed"
                 }
             ],
-            "quote": "One client recovered $5,000 USD/month in lost appointments from faster follow-ups alone. Property management, CRM, and project management now live in a single platform instead of multiple disconnected tools.",
+            "quote": "One client recovered +$5,000 USD/month in lost appointments from faster follow-ups alone.",
             "authorName": "Axirify",
-            "authorTitle": "Property & Operations Management SaaS Platform",
-            "screenshot": "customers/axirify/8.png"
+            "authorTitle": "Clinics & Med Spas",
+            "screenshot": "customers/axirify/7.png"
         }
     },
   },
@@ -126,55 +120,72 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     folder: "backlink-brain",
     data: {
         "customerName": "Backlink Brain",
-        "tagline": "AI-Powered Outreach Platform for SEO Backlink Discovery and Campaign Management",
+        "tagline": "Swipe Left, Swipe Right, Build Backlinks",
+        "websiteUrl": "backlinkbrain.com",
         "accentColor": "#F59E0B",
         "challenge": {
-            "headline": "Manual outreach limits scale and efficiency",
-            "description": "SEO professionals juggled multiple tools and repetitive processes while trying to execute campaigns at scale. Maintaining consistency and tracking progress across multiple initiatives made it nearly impossible to grow efficiently.",
+            "headline": "Backlink Outreach Was Drowning in Manual Work",
+            "description": "SEO professionals and agencies were juggling multiple tools and repetitive processes just to identify opportunities and manage outreach campaigns at scale. The lack of a unified workflow created bottlenecks that limited efficiency and made it impossible to grow.",
             "screenshot": "customers/backlink-brain/1.png"
         },
         "features": [
             {
                 "screenshot": "customers/backlink-brain/2.png",
-                "label": "PitchBox Integration"
+                "label": "Mobile App Hero"
             },
             {
                 "screenshot": "customers/backlink-brain/3.png",
-                "label": "3-Step Campaign Onboarding"
+                "label": "Campaign Dashboard View"
             },
             {
                 "screenshot": "customers/backlink-brain/4.png",
-                "label": "Target Audience Benefits"
+                "label": "Homepage Overview"
             },
             {
                 "screenshot": "customers/backlink-brain/5.png",
-                "label": "User Success Stories"
+                "label": "App Download Landing"
             },
             {
                 "screenshot": "customers/backlink-brain/6.png",
-                "label": "Contact Export Sheet"
+                "label": "PitchBox Integration"
+            },
+            {
+                "screenshot": "customers/backlink-brain/7.png",
+                "label": "3-Step Onboarding Flow"
+            },
+            {
+                "screenshot": "customers/backlink-brain/8.png",
+                "label": "Benefits & Audience Section"
+            },
+            {
+                "screenshot": "customers/backlink-brain/9.png",
+                "label": "User Success Stories"
+            },
+            {
+                "screenshot": "customers/backlink-brain/10.png",
+                "label": "Contact Data Discovery"
             }
         ],
         "result": {
-            "headline": "Launched on web and mobile with 99+ users",
+            "headline": "Launched on Web & Mobile, Scaling SEO Teams",
             "stats": [
                 {
-                    "value": "99+",
-                    "label": "Active Users"
+                    "value": "10+ hrs/wk",
+                    "label": "Saved finding leads"
                 },
                 {
-                    "value": "1",
-                    "label": "Unified Platform"
+                    "value": "10 pts",
+                    "label": "DR increase for users"
                 },
                 {
-                    "value": "AI",
-                    "label": "Opportunity Discovery"
+                    "value": "10+ hrs/wk",
+                    "label": "Saved writing cold emails"
                 }
             ],
-            "quote": "By simplifying workflows and reducing manual effort, Backlink Brain supports improved productivity and enables users to scale their activities with greater confidence.",
+            "quote": "Backlink Brain simplifies and modernizes outreach workflows, enabling teams to focus more on strategy and relationship-building rather than repetitive operational tasks.",
             "authorName": "Backlink Brain",
             "authorTitle": "SEO / AI Marketing Platform",
-            "screenshot": "customers/backlink-brain/7.png"
+            "screenshot": "customers/backlink-brain/11.png"
         }
     },
   },
@@ -184,6 +195,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "CE Tax",
         "tagline": "Unified financial management system for invoicing, transactions & compliance",
+        "websiteUrl": "cetax.com",
         "accentColor": "#3B82F6",
         "challenge": {
             "headline": "Fragmented finance tools create costly gaps",
@@ -225,6 +237,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "CellEasy",
         "tagline": "E-commerce platform for Rogers dealers with sales attribution & tracking",
+        "websiteUrl": "celleasy.com",
         "accentColor": "#EF4444",
         "challenge": {
             "headline": "No way to track which rep made each online sale",
@@ -270,6 +283,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "DARE",
         "tagline": "Agentic AI Research Platform for Scientists and PhD Researchers",
+        "websiteUrl": "dare.ai",
         "accentColor": "#8B5CF6",
         "challenge": {
             "headline": "Advanced AI was locked behind engineering expertise",
@@ -319,6 +333,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Gold Selling Standards",
         "tagline": "AI-Powered Sales Call Intelligence for Performance Analysis and Coaching",
+        "websiteUrl": "goldsellingstandards.com",
         "accentColor": "#EAB308",
         "challenge": {
             "headline": "Sales Coaching Blind Spots Kill Revenue",
@@ -376,6 +391,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "HG Garage",
         "tagline": "Automated inventory management for automotive parts suppliers",
+        "websiteUrl": "hggarage.com",
         "accentColor": "#F97316",
         "challenge": {
             "headline": "Spreadsheets can't keep up with multi-channel parts",
@@ -433,6 +449,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Insidermemes",
         "tagline": "AI-Powered Meme Generator for Viral Content Creation",
+        "websiteUrl": "insidermemes.com",
         "accentColor": "#EC4899",
         "challenge": {
             "headline": "Creating timely memes takes too long",
@@ -486,62 +503,163 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Notifier",
         "tagline": "AI-Powered Social Listening and Brand Monitoring Platform",
+        "websiteUrl": "notifier.com",
         "accentColor": "#06B6D4",
         "challenge": {
-            "headline": "Brands miss critical conversations happening online",
-            "description": "Organizations faced limited visibility into social media discussions influencing customer perception and market positioning. Delayed awareness of emerging issues reduced opportunities to engage proactively and protect brand reputation.",
+            "headline": "Brands Blind to Conversations That Shape Them",
+            "description": "Organizations struggled with limited visibility into social media discussions that could influence brand perception and customer satisfaction. Delayed awareness of important conversations reduced opportunities to respond proactively and protect brand reputation.",
             "screenshot": "customers/notifier/1.png"
         },
         "features": [
             {
                 "screenshot": "customers/notifier/2.png",
-                "label": "Downtime Pain Points"
+                "label": "Downtime Risk Breakdown"
             },
             {
                 "screenshot": "customers/notifier/3.png",
-                "label": "24/7 Auto Monitoring"
+                "label": "24/7 Site Monitoring"
             },
             {
                 "screenshot": "customers/notifier/4.png",
-                "label": "Core Features Overview"
+                "label": "Features Overview"
             },
             {
                 "screenshot": "customers/notifier/5.png",
-                "label": "Multi-Channel Integrations"
+                "label": "Integrations Grid"
             },
             {
                 "screenshot": "customers/notifier/6.png",
-                "label": "Bootstrapped Founder Story"
-            },
-            {
-                "screenshot": "customers/notifier/7.png",
-                "label": "Product Values & Principles"
-            },
-            {
-                "screenshot": "customers/notifier/8.png",
-                "label": "Customer Testimonials"
+                "label": "Founder Story Section"
             }
         ],
         "result": {
-            "headline": "Social listening transformed into actionable intelligence",
+            "headline": "Social Listening Transformed Into Actionable Insight",
             "stats": [
                 {
-                    "value": "24/7",
-                    "label": "Continuous Monitoring"
+                    "value": "Real-Time",
+                    "label": "Brand Monitoring"
                 },
                 {
-                    "value": "Zero",
-                    "label": "Missed Mentions"
-                },
-                {
-                    "value": "AI",
+                    "value": "AI-Powered",
                     "label": "Sentiment Analysis"
+                },
+                {
+                    "value": "Faster",
+                    "label": "Team Response Times"
                 }
             ],
             "quote": "Notifier has transformed social listening from a resource-intensive process into a more efficient and actionable capability that helps organizations stay connected with their audiences and adapt to an evolving digital landscape.",
             "authorName": "Notifier",
             "authorTitle": "Social Media Analytics & Brand Management",
-            "screenshot": "customers/notifier/9.png"
+            "screenshot": "customers/notifier/7.png"
+        }
+    },
+  },
+  {
+    id: "OneaiHealth",
+    folder: "oneai-health",
+    data: {
+        "customerName": "ONEai Health",
+        "tagline": "AI-Powered Chronic Care Intelligence — Continuous, Measurable, Actionable",
+        "websiteUrl": "oneaihealth.com",
+        "accentColor": "#0EA5E9",
+        "challenge": {
+            "headline": "Risk Compounds Silently Between Clinic Visits",
+            "description": "96% of a patient's health journey happens outside the clinic, yet traditional care models only capture the 4% that occurs in-office. Healthcare organizations managing chronic care programs lack a unified view of patient status, making it nearly impossible to prioritize interventions before conditions escalate.",
+            "screenshot": "customers/oneai-health/1.png"
+        },
+        "features": [
+            {
+                "screenshot": "customers/oneai-health/2.png",
+                "label": "Between-Visit Gap Stats"
+            },
+            {
+                "screenshot": "customers/oneai-health/3.png",
+                "label": "Care Network Platform"
+            },
+            {
+                "screenshot": "customers/oneai-health/4.png",
+                "label": "Ecosystem Intelligence"
+            },
+            {
+                "screenshot": "customers/oneai-health/5.png",
+                "label": "Patient Engagement Hub"
+            }
+        ],
+        "result": {
+            "headline": "Decision-Ready Intelligence Delivered at Scale",
+            "stats": [
+                {
+                    "value": "96%",
+                    "label": "of care happens between visits — now monitored"
+                },
+                {
+                    "value": "2-in-1",
+                    "label": "Continuous + Predictive Care Intelligence layers"
+                },
+                {
+                    "value": "360°",
+                    "label": "Unified view across patients, clinicians & payers"
+                }
+            ],
+            "quote": "By bringing patient engagement, care coordination, and health insights together within a single platform, ONEai Health helps healthcare organizations deliver a more connected and proactive care experience.",
+            "authorName": "ONEai Health",
+            "authorTitle": "AI Healthcare / Digital Health",
+            "screenshot": "customers/oneai-health/6.png"
+        }
+    },
+  },
+  {
+    id: "SalesedgeAi",
+    folder: "salesedge-ai",
+    data: {
+        "customerName": "SalesEdgeAI",
+        "tagline": "AI-powered sales automation that eliminates post-meeting admin work",
+        "websiteUrl": "salesedgeai.com",
+        "accentColor": "#8B5CF6",
+        "challenge": {
+            "headline": "Sales reps lose 30% of selling time to admin",
+            "description": "Sales professionals were drowning in manual CRM updates, disconnected follow-ups, and lost conversation insights after every client meeting. Without an intelligent layer connecting their tools, deals slipped through the cracks and forecasting accuracy eroded.",
+            "screenshot": "customers/salesedge-ai/1.png"
+        },
+        "features": [
+            {
+                "screenshot": "customers/salesedge-ai/2.png",
+                "label": "AI Sales Partner Dashboard"
+            },
+            {
+                "screenshot": "customers/salesedge-ai/3.png",
+                "label": "Fragmentation Cost Stats"
+            },
+            {
+                "screenshot": "customers/salesedge-ai/4.png",
+                "label": "Meeting Intelligence Insights"
+            },
+            {
+                "screenshot": "customers/salesedge-ai/5.png",
+                "label": "Revenue Leakage Calculator"
+            }
+        ],
+        "result": {
+            "headline": "8–10 hours recovered per rep, every week",
+            "stats": [
+                {
+                    "value": "8-10 hrs",
+                    "label": "Recovered per rep weekly"
+                },
+                {
+                    "value": "40%",
+                    "label": "Improvement in follow-up consistency"
+                },
+                {
+                    "value": "Real-time",
+                    "label": "CRM data with zero manual input"
+                }
+            ],
+            "quote": "SalesEdgeAI operates in the background, eliminating manual overhead so sales teams stay focused entirely on customer engagement and closing deals.",
+            "authorName": "SalesEdgeAI",
+            "authorTitle": "AI Sales Automation",
+            "screenshot": "customers/salesedge-ai/6.png"
         }
     },
   },
@@ -551,46 +669,55 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Samwise AI",
         "tagline": "AI-Powered Federal Contracting Platform for Government Opportunities",
+        "websiteUrl": "samwiseai.com",
         "accentColor": "#14B8A6",
         "challenge": {
-            "headline": "Drowning in Federal Contracting Noise",
-            "description": "Government contractors spend countless hours sifting through high volumes of opportunities across multiple sources, making it nearly impossible to focus on the most valuable pursuits. Manual research and evaluation drain resources while teams struggle to keep pace with new opportunities.",
+            "headline": "Manual Research Drains Time on Federal Contracts",
+            "description": "Government contractors faced an overwhelming volume of opportunities scattered across multiple sources, making it nearly impossible to focus on the right pursuits. Teams spent excessive hours on manual research and evaluation, leaving little time for strategic proposal development.",
             "screenshot": "customers/samwise/1.png"
         },
         "features": [
             {
                 "screenshot": "customers/samwise/2.png",
-                "label": "AI Capability Stack"
+                "label": "Company Profile Setup"
             },
             {
                 "screenshot": "customers/samwise/3.png",
-                "label": "AI + Human Expertise"
+                "label": "All-Inclusive Pricing Plan"
             },
             {
                 "screenshot": "customers/samwise/4.png",
-                "label": "All-Inclusive Access Plan"
+                "label": "Opportunity List View"
+            },
+            {
+                "screenshot": "customers/samwise/5.png",
+                "label": "Market Analytics Dashboard"
+            },
+            {
+                "screenshot": "customers/samwise/6.png",
+                "label": "Performance Stats Overview"
             }
         ],
         "result": {
-            "headline": "Contractors Win More and Work Less",
+            "headline": "Contractors Win More with Less Time Wasted",
             "stats": [
                 {
                     "value": "40%",
-                    "label": "Higher win rates for clients"
+                    "label": "Higher win rates"
                 },
                 {
                     "value": "30+ hrs",
-                    "label": "Saved per week on research"
+                    "label": "Saved per week"
                 },
                 {
                     "value": "300%",
-                    "label": "Average ROI within first year"
+                    "label": "Average ROI in year one"
                 }
             ],
-            "quote": "By simplifying opportunity discovery and analysis, Samwise AI helps contractors focus more time on strategic growth and proposal development.",
+            "quote": "SAMwiseAI consolidates newly available, high-potential opportunities and provides data-driven insights to shape your capture strategy — giving you the competitive edge to win more business, faster.",
             "authorName": "Samwise AI",
-            "authorTitle": "Federal Contracting / GovTech SaaS Platform",
-            "screenshot": "customers/samwise/5.png"
+            "authorTitle": "Federal Contracting / GovTech",
+            "screenshot": "customers/samwise/7.png"
         }
     },
   },
@@ -600,6 +727,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Scoutside",
         "tagline": "AI-Powered College Lacrosse Recruiting Platform",
+        "websiteUrl": "scoutside.com",
         "accentColor": "#22C55E",
         "challenge": {
             "headline": "Recruiting Is Overwhelming Without Direction",
@@ -661,6 +789,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Stammer AI",
         "tagline": "AI-Powered White Label Platform for Conversational AI Agents",
+        "websiteUrl": "stammer.ai",
         "accentColor": "#A855F7",
         "challenge": {
             "headline": "Building AI agents required expensive dev teams",
@@ -718,6 +847,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "TalentArc",
         "tagline": "AI-Powered Recruitment Platform for Smarter Hiring",
+        "websiteUrl": "talentarc.ai",
         "accentColor": "#0EA5E9",
         "challenge": {
             "headline": "Manual screening buries recruiters in applicant overload",
@@ -778,28 +908,33 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     folder: "zinng",
     data: {
         "customerName": "Zinng AI",
-        "tagline": "AI-powered customer communication platform for small businesses",
+        "tagline": "AI-Powered Customer Communication Platform for Small Businesses",
+        "websiteUrl": "zinng.ai",
         "accentColor": "#F43F5E",
         "challenge": {
             "headline": "Missed calls mean lost customers for small businesses",
-            "description": "Small businesses couldn't respond to every inquiry in real time — after-hours calls went unanswered and potential customers moved on. Communication across multiple channels lacked a unified view, making consistency and visibility nearly impossible.",
-            "screenshot": "customers/zinng/4.png"
+            "description": "Small businesses constantly lose opportunities when calls go unanswered after hours or during busy periods, driving potential customers straight to competitors. Disconnected communication channels made it impossible to stay consistent and responsive without increasing operational burden.",
+            "screenshot": "customers/zinng/1.png"
         },
         "features": [
             {
-                "screenshot": "customers/zinng/5.png",
+                "screenshot": "customers/zinng/2.png",
                 "label": "Problem vs. Solution"
             },
             {
-                "screenshot": "customers/zinng/6.png",
+                "screenshot": "customers/zinng/3.png",
+                "label": "Hero & Press Recognition"
+            },
+            {
+                "screenshot": "customers/zinng/4.png",
                 "label": "Full Feature Suite"
             },
             {
-                "screenshot": "customers/zinng/7.png",
-                "label": "4-Step Onboarding"
+                "screenshot": "customers/zinng/5.png",
+                "label": "4-Step Onboarding Flow"
             },
             {
-                "screenshot": "customers/zinng/8.png",
+                "screenshot": "customers/zinng/6.png",
                 "label": "Customer Testimonials"
             }
         ],
@@ -811,18 +946,18 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
                     "label": "Customer Availability"
                 },
                 {
-                    "value": "Zero",
-                    "label": "Missed Leads"
+                    "value": "80%",
+                    "label": "Of Callers Won't Leave Voicemail"
                 },
                 {
                     "value": "5 min",
-                    "label": "Faster Response Time"
+                    "label": "Response Time Boosts Conversion 100x"
                 }
             ],
             "quote": "Zinng AI transformed how small businesses approach customer communication by helping them stay connected, responsive, and better equipped to serve their customers.",
             "authorName": "Zinng AI",
-            "authorTitle": "AI Customer Communication Platform",
-            "screenshot": "customers/zinng/9.png"
+            "authorTitle": "AI Customer Communication",
+            "screenshot": "customers/zinng/7.png"
         }
     },
   },

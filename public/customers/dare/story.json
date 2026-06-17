@@ -1,6 +1,7 @@
 {
   "customerName": "DARE",
   "tagline": "Agentic AI Research Platform for Scientists and PhD Researchers",
+  "websiteUrl": "dare.ai",
   "accentColor": "#8B5CF6",
   "challenge": {
     "headline": "Advanced AI was locked behind engineering expertise",

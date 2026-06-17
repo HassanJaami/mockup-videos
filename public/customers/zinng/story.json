@@ -1,28 +1,54 @@
 {
   "customerName": "Zinng AI",
-  "tagline": "AI-powered customer communication platform for small businesses",
+  "tagline": "AI-Powered Customer Communication Platform for Small Businesses",
+  "websiteUrl": "zinng.ai",
   "accentColor": "#F43F5E",
   "challenge": {
     "headline": "Missed calls mean lost customers for small businesses",
-    "description": "Small businesses couldn't respond to every inquiry in real time — after-hours calls went unanswered and potential customers moved on. Communication across multiple channels lacked a unified view, making consistency and visibility nearly impossible.",
-    "screenshot": "customers/zinng/4.png"
+    "description": "Small businesses constantly lose opportunities when calls go unanswered after hours or during busy periods, driving potential customers straight to competitors. Disconnected communication channels made it impossible to stay consistent and responsive without increasing operational burden.",
+    "screenshot": "customers/zinng/1.png"
   },
   "features": [
-    { "screenshot": "customers/zinng/5.png", "label": "Problem vs. Solution" },
-    { "screenshot": "customers/zinng/6.png", "label": "Full Feature Suite" },
-    { "screenshot": "customers/zinng/7.png", "label": "4-Step Onboarding" },
-    { "screenshot": "customers/zinng/8.png", "label": "Customer Testimonials" }
+    {
+      "screenshot": "customers/zinng/2.png",
+      "label": "Problem vs. Solution"
+    },
+    {
+      "screenshot": "customers/zinng/3.png",
+      "label": "Hero & Press Recognition"
+    },
+    {
+      "screenshot": "customers/zinng/4.png",
+      "label": "Full Feature Suite"
+    },
+    {
+      "screenshot": "customers/zinng/5.png",
+      "label": "4-Step Onboarding Flow"
+    },
+    {
+      "screenshot": "customers/zinng/6.png",
+      "label": "Customer Testimonials"
+    }
   ],
   "result": {
     "headline": "24/7 availability, zero missed opportunities",
     "stats": [
-      { "value": "24/7", "label": "Customer Availability" },
-      { "value": "Zero", "label": "Missed Leads" },
-      { "value": "5 min", "label": "Faster Response Time" }
+      {
+        "value": "24/7",
+        "label": "Customer Availability"
+      },
+      {
+        "value": "80%",
+        "label": "Of Callers Won't Leave Voicemail"
+      },
+      {
+        "value": "5 min",
+        "label": "Response Time Boosts Conversion 100x"
+      }
     ],
     "quote": "Zinng AI transformed how small businesses approach customer communication by helping them stay connected, responsive, and better equipped to serve their customers.",
     "authorName": "Zinng AI",
-    "authorTitle": "AI Customer Communication Platform",
-    "screenshot": "customers/zinng/9.png"
+    "authorTitle": "AI Customer Communication",
+    "screenshot": "customers/zinng/7.png"
   }
 }

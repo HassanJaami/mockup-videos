@@ -1,10 +1,11 @@
 {
   "customerName": "CE Tax",
   "tagline": "Unified financial management system for invoicing, transactions & compliance",
+  "websiteUrl": "cetax.com",
   "accentColor": "#3B82F6",
   "challenge": {
     "headline": "Fragmented finance tools create costly gaps",
-    "description": "Growing businesses managed invoices, transactions, and reporting across separate disconnected tools — creating administrative overhead and limiting financial visibility. The fragmentation made it difficult to maintain accurate, timely financial records at scale.",
+    "description": "Growing businesses managed invoices, transactions, and reporting across separate disconnected tools \u2014 creating administrative overhead and limiting financial visibility. The fragmentation made it difficult to maintain accurate, timely financial records at scale.",
     "screenshot": "customers/ce-tax/1.png"
   },
   "features": [

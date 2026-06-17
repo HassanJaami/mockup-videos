@@ -1,53 +1,50 @@
 {
   "customerName": "Alertora",
   "tagline": "AI-Powered WhatsApp Safety Companion for Solo Travelers",
+  "websiteUrl": "alertora.com",
   "accentColor": "#10B981",
   "challenge": {
-    "headline": "Fragmented travel info leaves solo travelers exposed",
-    "description": "Solo travelers relied on multiple scattered sources to gather destination-specific guidance, making it time-consuming and stressful to access critical information quickly. This fragmented approach created unnecessary friction and overwhelm during the moments travelers needed support most.",
+    "headline": "Solo travelers overwhelmed by fragmented info",
+    "description": "Solo travelers relied on scattered sources to find destination-specific guidance, making quick access to help stressful and time-consuming. There was no single, familiar channel that could deliver calm, personalized support exactly when it was needed most.",
     "screenshot": "customers/alertora/1.png"
   },
   "features": [
     {
       "screenshot": "customers/alertora/2.png",
-      "label": "Real Scenario Guidance"
+      "label": "Real Traveler Scenarios"
     },
     {
       "screenshot": "customers/alertora/3.png",
-      "label": "WhatsApp Onboarding Flow"
+      "label": "3-Step Onboarding Flow"
     },
     {
       "screenshot": "customers/alertora/4.png",
-      "label": "Safety Features Suite"
+      "label": "Safety Features Grid"
     },
     {
       "screenshot": "customers/alertora/5.png",
-      "label": "Traveler Community Stats"
-    },
-    {
-      "screenshot": "customers/alertora/6.png",
-      "label": "User Testimonials Wall"
+      "label": "Community Growth Stats"
     }
   ],
   "result": {
-    "headline": "Travelers explore with confidence, not anxiety",
+    "headline": "Confident solo travel, delivered via WhatsApp",
     "stats": [
       {
         "value": "1,000+",
-        "label": "Solo Travelers Supported"
+        "label": "Solo Travelers Joined"
       },
       {
         "value": "24/7",
-        "label": "On-Demand Guidance"
+        "label": "Always-On Support"
       },
       {
-        "value": "Zero",
-        "label": "Extra Apps Needed"
+        "value": "180+",
+        "label": "Destinations Covered"
       }
     ],
-    "quote": "By reducing friction in accessing travel-related information, Alertora helps users make more informed decisions and approach unfamiliar situations with greater confidence.",
+    "quote": "Alertora made me feel like I had a friend watching out for me the entire trip. The check-ins after every activity gave me so much peace of mind.",
     "authorName": "Alertora",
     "authorTitle": "Travel Safety / AI Chatbots",
-    "screenshot": "customers/alertora/7.png"
+    "screenshot": "customers/alertora/6.png"
   }
 }

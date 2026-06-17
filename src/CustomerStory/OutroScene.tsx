@@ -1,11 +1,12 @@
 import React from "react";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { COLORS, FONT_FAMILY, OUTRO_DURATION } from "./constants";
+import { COLORS, FONT_FAMILY, OUTRO_DURATION, SCENE_FADE_OUT_FRAMES } from "./constants";
 
 export const OutroScene: React.FC<{
   customerName: string;
+  websiteUrl: string;
   accentColor: string;
-}> = ({ customerName, accentColor }) => {
+}> = ({ customerName, websiteUrl, accentColor }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -23,7 +24,7 @@ export const OutroScene: React.FC<{
 
   const sceneOpacity = interpolate(
     frame,
-    [OUTRO_DURATION - 15, OUTRO_DURATION],
+    [OUTRO_DURATION - SCENE_FADE_OUT_FRAMES, OUTRO_DURATION],
     [1, 0],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
   );
@@ -57,7 +58,7 @@ export const OutroScene: React.FC<{
           marginBottom: 8,
         }}
       >
-        Customer Success Story
+        Partner Success Story
       </div>
 
       {/* Customer name */}
@@ -85,7 +86,7 @@ export const OutroScene: React.FC<{
         }}
       >
         Read the full story at{" "}
-        <span style={{ color: accentColor, fontWeight: 600 }}>yourwebsite.com</span>
+        <span style={{ color: accentColor, fontWeight: 600 }}>{websiteUrl}</span>
       </div>
     </AbsoluteFill>
   );

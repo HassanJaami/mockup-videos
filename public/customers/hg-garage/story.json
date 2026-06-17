@@ -1,10 +1,11 @@
 {
   "customerName": "HG Garage",
   "tagline": "Automated inventory management for automotive parts suppliers",
+  "websiteUrl": "hggarage.com",
   "accentColor": "#F97316",
   "challenge": {
     "headline": "Spreadsheets can't keep up with multi-channel parts",
-    "description": "Automotive parts suppliers were managing inventory, COGS, and financials manually across disconnected systems — leading to stock errors, duplicate data entry, and zero visibility into profitability. Sales, inventory, and financial data lived in separate silos with no unified view.",
+    "description": "Automotive parts suppliers were managing inventory, COGS, and financials manually across disconnected systems \u2014 leading to stock errors, duplicate data entry, and zero visibility into profitability. Sales, inventory, and financial data lived in separate silos with no unified view.",
     "screenshot": "customers/hg-garage/1.png"
   },
   "features": [

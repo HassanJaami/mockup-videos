@@ -14,6 +14,7 @@ export const featureSchema = z.object({
 export const customerStorySchema = z.object({
   customerName: z.string(),
   tagline: z.string(),
+  websiteUrl: z.string(),
   accentColor: zColor(),
   challenge: z.object({
     headline: z.string(),

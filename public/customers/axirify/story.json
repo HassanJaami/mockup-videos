@@ -1,10 +1,11 @@
 {
   "customerName": "Axirify",
-  "tagline": "AI-Powered Automation Platform for Clinics & Med Spas",
+  "tagline": "The WhatsApp-First Automation Platform for Clinics & Med Spas",
+  "websiteUrl": "axirify.com",
   "accentColor": "#6366F1",
   "challenge": {
-    "headline": "Clinics losing leads to slow, manual processes",
-    "description": "Property and clinic businesses relied on multiple disconnected systems, causing fragmented workflows, duplicate data entry, and missed opportunities. As teams grew, managing information consistently across functions became increasingly unmanageable.",
+    "headline": "Manual Processes Are Costing Clinics Every Day",
+    "description": "Clinics rely on disconnected tools and manual follow-ups, causing delayed responses, missed appointments, and lost revenue. Staff spend hours on routine tasks that should be automated.",
     "screenshot": "customers/axirify/1.png"
   },
   "features": [
@@ -22,36 +23,32 @@
     },
     {
       "screenshot": "customers/axirify/5.png",
-      "label": "How It Works Flow"
+      "label": "4-Step Automation Workflow"
     },
     {
       "screenshot": "customers/axirify/6.png",
       "label": "WhatsApp & Stripe Integrations"
-    },
-    {
-      "screenshot": "customers/axirify/7.png",
-      "label": "Proven ROI Stats"
     }
   ],
   "result": {
-    "headline": "5x ROI and 40+ hours saved every month",
+    "headline": "5x ROI and 40+ Hours Saved Every Month",
     "stats": [
       {
         "value": "5x",
-        "label": "Total ROI (conservative)"
+        "label": "Total ROI (conservative estimate)"
       },
       {
         "value": "40+",
-        "label": "Hours Saved Per Month"
+        "label": "Hours saved per month"
       },
       {
         "value": "100+",
-        "label": "More Appointments Confirmed"
+        "label": "More appointments confirmed"
       }
     ],
-    "quote": "One client recovered $5,000 USD/month in lost appointments from faster follow-ups alone. Property management, CRM, and project management now live in a single platform instead of multiple disconnected tools.",
+    "quote": "One client recovered +$5,000 USD/month in lost appointments from faster follow-ups alone.",
     "authorName": "Axirify",
-    "authorTitle": "Property & Operations Management SaaS Platform",
-    "screenshot": "customers/axirify/8.png"
+    "authorTitle": "Clinics & Med Spas",
+    "screenshot": "customers/axirify/7.png"
   }
 }

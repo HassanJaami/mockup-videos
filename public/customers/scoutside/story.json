@@ -1,6 +1,7 @@
 {
   "customerName": "Scoutside",
   "tagline": "AI-Powered College Lacrosse Recruiting Platform",
+  "websiteUrl": "scoutside.com",
   "accentColor": "#22C55E",
   "challenge": {
     "headline": "Recruiting Is Overwhelming Without Direction",
@@ -36,9 +37,18 @@
   "result": {
     "headline": "Athletes Recruit With Clarity and Confidence",
     "stats": [
-      { "value": "AI", "label": "Intelligent School Matching" },
-      { "value": "100%", "label": "Personalized Fit Scoring" },
-      { "value": "Zero", "label": "Guesswork in the Process" }
+      {
+        "value": "AI",
+        "label": "Intelligent School Matching"
+      },
+      {
+        "value": "100%",
+        "label": "Personalized Fit Scoring"
+      },
+      {
+        "value": "Zero",
+        "label": "Guesswork in the Process"
+      }
     ],
     "quote": "Scoutside delivers a more confident and structured path through the recruiting process. Athletes are better equipped to evaluate opportunities, focus their efforts more effectively, and make informed decisions about their future.",
     "authorName": "Scoutside",
