@@ -187,7 +187,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "CE Tax",
         "tagline": "Unified financial management system for invoicing, transactions & compliance",
-        "websiteUrl": "cetax.com",
+        "websiteUrl": "ce-tax.evolveedge.co/",
         "accentColor": "#3B82F6",
         "challenge": {
             "headline": "Fragmented finance tools create costly gaps",
@@ -275,7 +275,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "DARE",
         "tagline": "Agentic AI Research Platform for Scientists and PhD Researchers",
-        "websiteUrl": "dare.ai",
+        "websiteUrl": "dare-front.hss.cmu.edu",
         "accentColor": "#8B5CF6",
         "challenge": {
             "headline": "Advanced AI was locked behind engineering expertise",
