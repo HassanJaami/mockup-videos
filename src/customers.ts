@@ -229,7 +229,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "CellEasy",
         "tagline": "E-commerce platform for Rogers dealers with sales attribution & tracking",
-        "websiteUrl": "celleasy.com",
+        "websiteUrl": "shop.weconnectit.ca/rpp",
         "accentColor": "#EF4444",
         "challenge": {
             "headline": "No way to track which rep made each online sale",
@@ -661,7 +661,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Samwise AI",
         "tagline": "AI-Powered Federal Contracting Platform for Government Opportunities",
-        "websiteUrl": "samwiseai.com",
+        "websiteUrl": "samwiseai.io",
         "accentColor": "#14B8A6",
         "challenge": {
             "headline": "Manual Research Drains Time on Federal Contracts",
@@ -719,7 +719,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Scoutside",
         "tagline": "AI-Powered College Lacrosse Recruiting Platform",
-        "websiteUrl": "scoutside.com",
+        "websiteUrl": "scoutside.ai",
         "accentColor": "#22C55E",
         "challenge": {
             "headline": "Recruiting Is Overwhelming Without Direction",
