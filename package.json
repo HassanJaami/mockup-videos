@@ -31,7 +31,8 @@
     "gen": "node scripts/generate-compositions.mjs",
     "render:all": "node scripts/render-all.mjs",
     "render:one": "node scripts/render-customer.mjs",
-    "new-customer": "node scripts/new-customer.mjs"
+    "new-customer": "node scripts/new-customer.mjs",
+    "zip": "cd output && zip -j customer-stories.zip *.mp4"
   },
   "sideEffects": [
     "*.css"

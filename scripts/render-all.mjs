@@ -19,6 +19,7 @@ import { renderMedia, selectComposition } from "@remotion/renderer";
 import { existsSync, mkdirSync, readdirSync, readFileSync } from "fs";
 import { resolve } from "path";
 import { fileURLToPath } from "url";
+import { execSync } from "child_process";
 import { enableTailwind } from "@remotion/tailwind-v4";
 
 const ROOT = resolve(fileURLToPath(new URL(".", import.meta.url)), "..");
@@ -29,6 +30,12 @@ const ENTRY_POINT = resolve(ROOT, "src/index.ts");
 if (!existsSync(OUTPUT_DIR)) mkdirSync(OUTPUT_DIR, { recursive: true });
 
 // ── Discover customers ───────────────────────────────────────────────────────
+
+const toCompositionId = (folder) =>
+  folder
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join("");
 
 const customerFolders = readdirSync(CUSTOMERS_DIR, { withFileTypes: true })
   .filter((d) => d.isDirectory())
@@ -46,7 +53,11 @@ const customers = customerFolders
       console.warn(`⚠  Skipping '${folder}' — no story.json found`);
       return null;
     }
-    return { folder, data: JSON.parse(readFileSync(storyPath, "utf-8")) };
+    return {
+      folder,
+      id: toCompositionId(folder),
+      data: JSON.parse(readFileSync(storyPath, "utf-8")),
+    };
   })
   .filter(Boolean);
 
@@ -71,16 +82,15 @@ console.log("Bundle ready.\n");
 let passed = 0;
 let failed = 0;
 
-for (const { folder, data } of customers) {
+for (const { folder, id, data } of customers) {
   const outputPath = resolve(OUTPUT_DIR, `${folder}.mp4`);
-  console.log(`🎬 Rendering: ${data.customerName}`);
+  console.log(`🎬 Rendering: ${data.customerName} (${id})`);
 
   try {
     const composition = await selectComposition({
       serveUrl,
-      id: "CustomerStory",
+      id,
       inputProps: data,
-      // calculateMetadata in Root.tsx computes duration from features.length
     });
 
     await renderMedia({
@@ -111,3 +121,16 @@ for (const { folder, data } of customers) {
 console.log("─".repeat(40));
 console.log(`Rendered ${passed}/${customers.length} video(s)${failed ? ` · ${failed} failed` : ""}`);
 if (passed > 0) console.log(`Videos saved to: output/`);
+
+// ── Zip all MP4s ─────────────────────────────────────────────────────────────
+
+if (passed > 0) {
+  const zipPath = resolve(ROOT, "output", "customer-stories.zip");
+  console.log("\nCreating zip...");
+  try {
+    execSync(`cd "${OUTPUT_DIR}" && zip -j "${zipPath}" *.mp4`, { stdio: "inherit" });
+    console.log(`📦 output/customer-stories.zip`);
+  } catch (err) {
+    console.error("❌ Zip failed:", err.message);
+  }
+}
