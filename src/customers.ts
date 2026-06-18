@@ -130,40 +130,32 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
         },
         "features": [
             {
-                "screenshot": "customers/backlink-brain/2.png",
+                "screenshot": "customers/backlink-brain/1.png",
                 "label": "Mobile App Hero"
             },
             {
-                "screenshot": "customers/backlink-brain/3.png",
-                "label": "Campaign Dashboard View"
-            },
-            {
-                "screenshot": "customers/backlink-brain/4.png",
-                "label": "Homepage Overview"
-            },
-            {
-                "screenshot": "customers/backlink-brain/5.png",
-                "label": "App Download Landing"
-            },
-            {
-                "screenshot": "customers/backlink-brain/6.png",
+                "screenshot": "customers/backlink-brain/2.png",
                 "label": "PitchBox Integration"
             },
             {
-                "screenshot": "customers/backlink-brain/7.png",
+                "screenshot": "customers/backlink-brain/3.png",
                 "label": "3-Step Onboarding Flow"
             },
             {
-                "screenshot": "customers/backlink-brain/8.png",
+                "screenshot": "customers/backlink-brain/4.png",
                 "label": "Benefits & Audience Section"
             },
             {
-                "screenshot": "customers/backlink-brain/9.png",
+                "screenshot": "customers/backlink-brain/5.png",
                 "label": "User Success Stories"
             },
             {
-                "screenshot": "customers/backlink-brain/10.png",
+                "screenshot": "customers/backlink-brain/6.png",
                 "label": "Contact Data Discovery"
+            },
+            {
+                "screenshot": "customers/backlink-brain/7.png",
+                "label": "Pricing"
             }
         ],
         "result": {
@@ -185,7 +177,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
             "quote": "Backlink Brain simplifies and modernizes outreach workflows, enabling teams to focus more on strategy and relationship-building rather than repetitive operational tasks.",
             "authorName": "Backlink Brain",
             "authorTitle": "SEO / AI Marketing Platform",
-            "screenshot": "customers/backlink-brain/11.png"
+            "screenshot": "customers/backlink-brain/8.png"
         }
     },
   },
@@ -798,32 +790,44 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
         },
         "features": [
             {
-                "screenshot": "customers/stammer-ai/2.png",
-                "label": "Multi-Channel AI Deployment"
-            },
-            {
                 "screenshot": "customers/stammer-ai/3.png",
-                "label": "Agency Social Proof"
+                "label": "AI Agents Across Every Channel"
             },
             {
                 "screenshot": "customers/stammer-ai/4.png",
-                "label": "White Label Voice & Chat"
+                "label": "White Label Voice & Chat Agents"
             },
             {
                 "screenshot": "customers/stammer-ai/5.png",
-                "label": "Tech Stack Integrations"
+                "label": "Built for Every Industry"
             },
             {
                 "screenshot": "customers/stammer-ai/6.png",
-                "label": "Self-Serve Reseller Signup"
+                "label": "Scale Your Agency in Days"
+            },
+            {
+                "screenshot": "customers/stammer-ai/7.png",
+                "label": "No-Code Setup in Minutes"
+            },
+            {
+                "screenshot": "customers/stammer-ai/8.png",
+                "label": "Integrates with Your Tech Stack"
+            },
+            {
+                "screenshot": "customers/stammer-ai/9.png",
+                "label": "24/7 Priority Support Included"
+            },
+            {
+                "screenshot": "customers/stammer-ai/2.png",
+                "label": "1,300+ Agencies Trust Stammer"
             }
         ],
         "result": {
             "headline": "New AI revenue streams, launched in hours",
             "stats": [
                 {
-                    "value": "Zero",
-                    "label": "Code Required"
+                    "value": "35K+",
+                    "label": "Live AI Agents"
                 },
                 {
                     "value": "12M+",
@@ -834,10 +838,10 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
                     "label": "Uptime"
                 }
             ],
-            "quote": "Businesses and agencies can now build sophisticated AI agents without any programming expertise, slashing time-to-market from months to hours. Partners deliver fully white-labeled solutions that reinforce their brand and open profitable new revenue streams.",
-            "authorName": "Stammer AI",
-            "authorTitle": "White-Label AI Chatbot & Voice Agent Platform",
-            "screenshot": "customers/stammer-ai/7.png"
+            "quote": "Their white-label AI solution is not only powerful and reliable but also fully customizable making it incredibly easy to align with our business goals.",
+            "authorName": "Ohimai T.",
+            "authorTitle": "AI Agency Owner",
+            "screenshot": "customers/stammer-ai/10.png"
         }
     },
   },

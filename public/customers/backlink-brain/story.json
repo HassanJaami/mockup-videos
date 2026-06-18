@@ -10,40 +10,32 @@
   },
   "features": [
     {
-      "screenshot": "customers/backlink-brain/2.png",
+      "screenshot": "customers/backlink-brain/1.png",
       "label": "Mobile App Hero"
     },
     {
-      "screenshot": "customers/backlink-brain/3.png",
-      "label": "Campaign Dashboard View"
-    },
-    {
-      "screenshot": "customers/backlink-brain/4.png",
-      "label": "Homepage Overview"
-    },
-    {
-      "screenshot": "customers/backlink-brain/5.png",
-      "label": "App Download Landing"
-    },
-    {
-      "screenshot": "customers/backlink-brain/6.png",
+      "screenshot": "customers/backlink-brain/2.png",
       "label": "PitchBox Integration"
     },
     {
-      "screenshot": "customers/backlink-brain/7.png",
+      "screenshot": "customers/backlink-brain/3.png",
       "label": "3-Step Onboarding Flow"
     },
     {
-      "screenshot": "customers/backlink-brain/8.png",
+      "screenshot": "customers/backlink-brain/4.png",
       "label": "Benefits & Audience Section"
     },
     {
-      "screenshot": "customers/backlink-brain/9.png",
+      "screenshot": "customers/backlink-brain/5.png",
       "label": "User Success Stories"
     },
     {
-      "screenshot": "customers/backlink-brain/10.png",
+      "screenshot": "customers/backlink-brain/6.png",
       "label": "Contact Data Discovery"
+    },
+    {
+      "screenshot": "customers/backlink-brain/7.png",
+      "label": "Pricing"
     }
   ],
   "result": {
@@ -65,6 +57,6 @@
     "quote": "Backlink Brain simplifies and modernizes outreach workflows, enabling teams to focus more on strategy and relationship-building rather than repetitive operational tasks.",
     "authorName": "Backlink Brain",
     "authorTitle": "SEO / AI Marketing Platform",
-    "screenshot": "customers/backlink-brain/11.png"
+    "screenshot": "customers/backlink-brain/8.png"
   }
 }
