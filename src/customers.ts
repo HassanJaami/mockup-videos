@@ -495,7 +495,7 @@ export const CUSTOMERS: Array<{ id: string; folder: string; data: CustomerStoryD
     data: {
         "customerName": "Notifier",
         "tagline": "AI-Powered Social Listening and Brand Monitoring Platform",
-        "websiteUrl": "notifier.com",
+        "websiteUrl": "notifier.so",
         "accentColor": "#06B6D4",
         "challenge": {
             "headline": "Brands Blind to Conversations That Shape Them",
