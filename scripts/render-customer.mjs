@@ -29,6 +29,10 @@ if (!existsSync(storyPath)) {
 }
 
 const data = JSON.parse(readFileSync(storyPath, "utf-8"));
+const compositionId = folderName
+  .split("-")
+  .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+  .join("");
 const outputDir = resolve(ROOT, "output");
 const outputPath = resolve(outputDir, `${folderName}.mp4`);
 
@@ -44,7 +48,7 @@ const serveUrl = await bundle({
 
 const composition = await selectComposition({
   serveUrl,
-  id: "CustomerStory",
+  id: compositionId,
   inputProps: data,
 });
 
