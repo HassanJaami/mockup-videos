@@ -6,6 +6,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.105.0",
     "@remotion/cli": "4.0.479",
     "@remotion/tailwind-v4": "4.0.479",
     "@remotion/zod-types": "4.0.479",
@@ -33,6 +34,7 @@
     "render:all": "node scripts/render-all.mjs",
     "render:one": "node scripts/render-customer.mjs",
     "new-customer": "node scripts/new-customer.mjs",
+    "story:gen": "node scripts/story-from-casestudy.mjs",
     "zip": "cd output && zip -j customer-stories.zip *.mp4"
   },
   "sideEffects": [
